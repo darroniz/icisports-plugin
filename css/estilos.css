@@ -1,0 +1,85 @@
+.proximos-eventos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Ajusta el espacio entre eventos según sea necesario */
+}
+
+.evento {
+    border: 1px solid #ddd; /* Bordes para cada evento */
+    padding: 10px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Fondo para cada evento */
+}
+
+.evento-ano {
+    border: 1px solid #ddd; /* Bordes para cada evento */
+    padding: 10px; /* Espaciado interno */
+	margin:10px 0px;
+    background-color: #f9f9f9; /* Fondo para cada evento */
+}
+
+.fecha-evento {
+    font-size: 16px;
+    font-weight: bold;
+    color:#00346b;
+}
+
+.titulo-evento {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.info-evento {
+    font-size: 14px;
+    color: #00346b;
+}
+
+.lugar-evento, .organizador-evento {
+    display: inline;
+}
+
+.lugar {
+    font-weight: bold;
+}
+
+.organizador {
+    font-weight: bold;
+}
+
+.eventos-ano-actual {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Ajusta el espacio entre eventos según sea necesario */
+}
+
+.mes-eventos {
+    margin-bottom: 40px;
+}
+
+.mes-header {
+    display: flex;
+    align-items: center;
+	margin-bottom: 3vh;
+}
+
+.nombre-mes {
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0 !important;
+	color:var(--global-palette2);
+    flex-shrink: 0;
+}
+
+.divisor-mes {
+    border: 0;
+    height: 2px;
+    background: --global-palette2;
+    flex-grow: 1;
+    margin-left: 3.5vh;
+}
+
+#ver-eventos-anteriores {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    }
